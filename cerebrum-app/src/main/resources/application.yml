@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: cerebrum
+    
+neural-network:
+  input-size: 10
+  output-size: 10

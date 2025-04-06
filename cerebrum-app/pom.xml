@@ -1,14 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>io.cerebrum</groupId>
-    <artifactId>cerebrum</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <artifactId>cerebrum-app</artifactId>
-  
-  <dependencies>
-  		<dependency>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>io.cerebrum</groupId>
+		<artifactId>cerebrum</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>cerebrum-app</artifactId>
+
+	<dependencies>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
@@ -21,16 +23,23 @@
 			<artifactId>spring-boot-starter-logging</artifactId>
 		</dependency>
 
-		<!--  App -->
+		<!-- App -->
 		<dependency>
 			<groupId>io.cerebrum</groupId>
 			<artifactId>cerebrum-core</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>io.cerebrum</groupId>
 			<artifactId>cerebrum-model</artifactId>
 		</dependency>
-  </dependencies>
-  
+
+
+		<!-- NN -->
+		<dependency>
+			<groupId>org.deeplearning4j</groupId>
+			<artifactId>deeplearning4j-core</artifactId>
+		</dependency>
+	</dependencies>
+
 </project>
